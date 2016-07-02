@@ -30,7 +30,7 @@ with codecs.open('bmf2016.csv', 'r+', encoding='utf-8') as data:
             line = re.sub(u'έ|ε|£', u'€', line)
             dump = re.split(u'€', line, 1, flags=re.IGNORECASE)
             newRow[3] = ''.join(dump[0])
-            #rest = dump[1].rstrip().lstrip()
+            rest = dump[1].rstrip().lstrip()
 
         #getfate
         if 'ja' in rest:
@@ -46,7 +46,7 @@ with codecs.open('bmf2016.csv', 'r+', encoding='utf-8') as data:
             newRow[4] = 'n.a.'
 
         #get gift name
-        # gift = re.split('ja|nein', rest, 1, flags=re.IGNORECASE)
+        gift = re.split('ja|nein', rest, 1, flags=re.IGNORECASE)
         if ',' in rest:
             newRow[0] = '\'' + rest + '\''
         else:
