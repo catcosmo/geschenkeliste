@@ -1,13 +1,13 @@
 # coding=utf-8
 import re
 
-newRow = ['gift', 'Bundesministerium für wirtschaftliche Zusammenarbeit','2015', 'n.a.', 'fate', 'BMZ', 'success']
-file = open('data/csvTxtPreprocess/BMZ.pdf.txt', 'r+')
-data = file.read()
-temp = re.sub('(\d{2}\.){1}(\d{2}\.){1}', "\n\\1\\2", data)
+newRow = ['gift', 'Bundesministerium für wirtschaftliche Zusammenarbeit','2015', 'n.a.', 'fate', 'BMZ', 'false', '0']
+#file = open('../data/csvTxtPreprocess/BMZ.pdf.txt', 'r+')
+#data = file.read()
+#temp = re.sub('(\d{2}\.){1}(\d{2}\.){1}', "\n\\1\\2", data)
 bmzfinal =  open('bmz.csv', 'w')
 
-with open('bmzordered.txt', 'r+') as orderedtxt:
+with open('../data/csvTxtPreprocess/bmzordered.txt', 'r+') as orderedtxt:
     for row in orderedtxt:
         #get date
         datetemp = row.split(' ')[0]
@@ -20,23 +20,23 @@ with open('bmzordered.txt', 'r+') as orderedtxt:
         list = [x for x in list if x != ''] #deletes all ''
         if list[-3] == 'privat':
             newRow[4] = 'privat verwendet'
-            newRow[6] = 'success'
+            newRow[6] = 'true'
             del list[-3:-2]
         elif list[-3] == 'dienstlich':
             newRow[4] = 'dienstlich verwendet'
-            newRow[6] = 'success'
+            newRow[6] = 'true'
             del list[-3:-2]
         elif list[-2] == '(verderblich)':
             newRow[4] = 'wurde nach Rücksprache mit Mitarbeiterin entsorgt (verderblich)'
-            newRow[6] = 'fail'
+            newRow[6] = 'false'
             del list[-8:-2]
         elif list[-2] == 'mitgenommen':
             newRow[4] = 'nicht mitgenommen'
-            newRow[6] = 'fail'
+            newRow[6] = 'false'
             del list[-3:-2]
         else:
             newRow[4] = list[-2]
-            newRow[6] = 'fail'
+            newRow[6] = 'false'
             list.pop(-2)
         #get gift and price
         list = [x for x in list if x != 'x']  # deletes all x
