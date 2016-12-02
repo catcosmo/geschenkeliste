@@ -31,7 +31,6 @@ with open('data/csvTxtPreprocess/2015AA.csv', 'r+') as file:
                 if row[1] not in ['',  'Zentrale']:
                     given = ' An: ' + row[1]
                     newRow[0] += given
-                    newRow[0] += given
                 #get fate + success
                 if row[4] != '':
                     newRow[4] = row[4]
