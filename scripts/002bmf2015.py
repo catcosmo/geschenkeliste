@@ -5,11 +5,11 @@ import codecs
 import re
 
 oldRow = ['gift', 'Bundesfinanzministerium','2015', 'n.a.', 'fate', 'BMF', 'success']
-newRow = ['gift', 'year', 'month', 'day', '00,00', 'fate', 'n.a.', 'BMAS'] 
+newRow = ['gift', 'year', 'month', 'day', '00,00', 'false', 'false', 'fate', 'n.a.', 'BMAS']
 
 
 # following writes txt lines in csv and deletes preceding running no.
-# with codecs.open('BMFGeschenke2015.txt', mode='r+', encoding='utf-8') as data:
+# with codecs.open('BMF2015.txt', mode='r+', encoding='utf-8') as data:
     #dump = codecs.open('bmf2015.csv', mode='w', encoding='utf-8')
     # for line in data:
         # line = re.sub("([0-9]{1,3}\s?\|)", r"", line)
@@ -23,8 +23,14 @@ with codecs.open('bmf2015.csv', 'r+', encoding='utf-8') as data:
         #get price
         temp = line.split()
         if temp[0] == "nicht":
-            newRow[3] = 'n.a.'
+            newRow[3] = '00,00'
             rest = ' '.join(temp[2:]).lstrip()
+        else if temp[0] == '<':
+            newRow[3] = '00,00'
+            newRow[5] = 'true'
+            rest = ' '.join(temp[2:]).lstrip()
+
+
         else:
             line = re.sub(u'έ|ε', u'€', line)
             dump = re.split(u'€', line, 1, flags=re.IGNORECASE)
