@@ -9,42 +9,48 @@ with open('../data/csvTxtPreprocess/bmf2015.csv', 'rb') as csvfile:
     result = []
 
     for index, row in enumerate(reader):
-        print(index, row)
+        day, month, year = '00', '00', '2015'
+        gift = row[1].strip()
 
         value = row[0].split(' €', 1)[0]
         value = value.replace(',', '.')
         if value.startswith('ca'):
-            print('does', value)
             value = value.split(' ', 1)[1]
-
         if value.startswith('<'):
-            value = None
+            value = '00.00'
 
-        day, month, year = None, None, None
-        gift = row[1].strip()
+        if 'nicht' in value:
+            value = '00.00'
+            under25euro = False
+            over25euro = False
+        else:
+            under25euro = False
+            try:
+                under25euro = float(value) < 25
+            except Exception as e:
+                under25euro = (row[0][0] == '<')
+                pass
 
-        under25euro = False
-        try:
-            under25euro = float(value) < 25
-        except Exception as e:
-            under25euro = (row[0][0] == '<')
-            pass
+            over25euro = False
+            try:
+                over25euro = float(value) > 25
+            except Exception as e:
+                pass
 
-        over25euro = False
-        try:
-            over25euro = float(value) > 25
-        except Exception as e:
-            pass
+        if row[3] != '':
+            fate = row[3].strip()
+        else:
+            fate = "Eigenbehalt"
+        print fate
 
-        fate = row[3] if len(row) >= 3 else None
         success = 'ja' in row[2]
-        ministryabbreviation = 'bmf'
+        ministryabbreviation = 'BMF'
 
         result.append([
             gift,
-            day,
-            month,
             year,
+            month,
+            day,
             value,
             under25euro,
             over25euro,

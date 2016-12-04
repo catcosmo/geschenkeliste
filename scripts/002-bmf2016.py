@@ -11,6 +11,9 @@ with open('../data/csvTxtPreprocess/bmf2016.csv', 'rb') as csvfile:
     for index, row in enumerate(reader):
         print(index, row)
 
+        day, month, year = '00', '00', '2016'
+        gift = row[1].strip()
+
         value = row[0].split(' €', 1)[0]
         value = value.replace(',', '.')
         if value.startswith('ca'):
@@ -18,30 +21,35 @@ with open('../data/csvTxtPreprocess/bmf2016.csv', 'rb') as csvfile:
             value = value.split(' ', 1)[1]
 
         if value.startswith('<'):
-            value = None
+            value = '00.00'
 
-        if 'nicht' in str(value):
-            value = None
+        if 'nicht' in value:
+            value = '00.00'
+            under25euro = False
+            over25euro = False
+        else:
+            under25euro = False
+            try:
+                under25euro = float(value) < 25
+            except Exception as e:
+                under25euro = (row[0][0] == '<')
+                pass
 
-        day, month, year = None, None, None
-        gift = row[1].strip()
+            over25euro = False
+            try:
+                over25euro = float(value) > 25
+            except Exception as e:
+                pass
 
-        under25euro = False
-        try:
-            under25euro = float(value) < 25
-        except Exception as e:
-            under25euro = (row[0][0] == '<')
-            pass
 
-        over25euro = False
-        try:
-            over25euro = float(value) > 25
-        except Exception as e:
-            pass
+        if row[3] != '':
+            fate = row[3].strip()
+        else:
+            fate = "Eigenbehalt"
+        print fate
 
-        fate = row[3] if len(row) >= 4 else None
         success = 'ja' in row[2]
-        ministryabbreviation = 'bmf'
+        ministryabbreviation = 'BMF'
 
         result.append([
             gift,
