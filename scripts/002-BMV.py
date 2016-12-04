@@ -3,7 +3,7 @@ import csv
 import re
 
 oldRow = ['gift', 'Bundesministerium der Verteidigung','seit 10/2009', 'n.a.', 'n.a.', 'BMV', 'fail']
-newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'BMI']
+newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'BMV']
 sheet =  open('bmv.csv', 'w')
 
 
