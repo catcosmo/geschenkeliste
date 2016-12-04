@@ -59,16 +59,19 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                     newRow[4] = re.sub('[A-Za-z.€\s()$>?]', '', row[3])
                     newRow[4] = re.sub('\,', '.', newRow[4])
                     newRow[4] = '0' + newRow[4]
+                    if newRow[4] == '<25':
+                        newRow[5] = 'True'
+                    elif float(newRow[4]) > 25:
+                        newRow[6] = 'True'
+                    elif float(newRow[4]) < 25:
+                        newRow[5] = 'True'
                 else:
                     newRow[4] = '00.00'
+                    newRow[5] = 'False'
+                    newRow[6] = 'False'
                 #get u25/ü25
 
-                if newRow[4] =='<25':
-                    newRow[5] = 'True'
-                elif float(newRow[4]) >25:
-                    newRow[6] =  'True'
-                elif float(newRow[4]) <25:
-                    newRow[5] = 'True'
+
 
                 #print newRow
                 aa13.write(', '.join(newRow) + '\n')
