@@ -2,7 +2,7 @@
 import csv
 import re
 oldRow = ['gift', 'Auswärtiges Amt','2013', 'n.a.', 'n.a.', 'AA', 'n.a.']
-newRow = ['gift', 'year', 'month', 'day', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
+newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
 
 aa13 =  open('aa13.csv', 'w')
 

@@ -3,11 +3,11 @@ import csv
 import re
 
 oldRow = ['gift', 'Bundesministerium für Familie, Senioren, Frauen und Jugend','seit 10/2009', 'n.a.', 'fate', 'BMFSFJ', 'fail']
-newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
+newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'BMFSFJ']
 
 bmf = open('bmfsfjFinal.csv', 'w')
 
-with open('/Users/krawallmietze/code/python/geschenkeliste/scripts/BMFSFJ-done.csv', 'r+') as file:
+with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess/BMFSFJ-done.csv', 'r+') as file:
     data = csv.reader(file, delimiter=',')
     for row in data:
         # get gift
