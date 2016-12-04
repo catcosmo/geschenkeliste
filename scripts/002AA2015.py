@@ -4,11 +4,11 @@ import re
 oldRow = ['gift', 'Auswärtiges Amt','2013', 'n.a.', 'n.a.', 'AA', 'n.a.']
 newRow = ['gift', 'year', 'month', 'day', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
 
-aa13 =  open('aa14.csv', 'w')
+aa13 =  open('aa15.csv', 'w')
 
 
 
-with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess/AA2014.csv', 'r+') as file:
+with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess/2015AA.csv', 'r+') as file:
     data = csv.reader(file, delimiter=',')
     for row in data:
         if len(row) >3:
@@ -27,7 +27,7 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
 
                 #get date
                 if row[0] == '':
-                    newRow[1] = '0000'
+                    newRow[1] = '2015'
                     newRow[2] = '00'
                     newRow[3] = '00'
                 else:
@@ -49,28 +49,15 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                     given = ' An: ' + row[1]
                     newRow[0] += given
                 #get fate + success
-                if row[4] != '':
-                    newRow[7] = row[4]
+                if row[-1] != '':
+                    newRow[7] = row[-1]
                     newRow[8] = 'fail'
-                    if 'BM' in row[4]:
+                    if 'BM' in row[-1]:
                         newRow[8] = 'success'
 
                 #get price
                 if row[3] != '':
-                    newRow[4] = re.sub('[A-Za-z.€\s()$>?]', '', row[3])
-                    newRow[4] = re.sub('\,', '.', newRow[4])
-
-                    # get u25/ü25
-                    if newRow[4] == '<25':
-                        newRow[5] = 'True'
-                    elif float(newRow[4]) > 25:
-                        newRow[6] = 'True'
-                    elif float(newRow[4]) < 25:
-                        newRow[5] = 'True'
-                else:
-                    newRow[4] = '00.00'
-                    newRow[5] = 'False'
-                    newRow[6] = 'False'
+                 print row[3]
 
                 #print newRow
                 aa13.write(', '.join(newRow) + '\n')

@@ -26,7 +26,7 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                     #el = el.replace('\n', '')
                 #get date
                 if row[0] == '':
-                    newRow[1] = '0000'
+                    newRow[1] = '2013'
                     newRow[2] = '00'
                     newRow[3] = '00'
                 else:

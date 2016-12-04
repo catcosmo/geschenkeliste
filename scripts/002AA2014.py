@@ -27,7 +27,7 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
 
                 #get date
                 if row[0] == '':
-                    newRow[1] = '0000'
+                    newRow[1] = '2014'
                     newRow[2] = '00'
                     newRow[3] = '00'
                 else:

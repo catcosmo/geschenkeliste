@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b85e4e6-f9b5-4511-a748-8989921a65fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/csvNewModel/aa14.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/csvNewModel/aa15.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" afterPath="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002AA2013.py" afterPath="$PROJECT_DIR$/scripts/002AA2013.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002AA2014.py" afterPath="$PROJECT_DIR$/scripts/002AA2014.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002AA2015.py" afterPath="$PROJECT_DIR$/scripts/002AA2015.py" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,24 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aa13.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa13.csv">
+      <file leaf-file-name="002AA2013.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/002AA2013.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="661" column="44" selection-start-line="661" selection-start-column="42" selection-end-line="661" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="316">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="e#15#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="002AA2013.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/002AA2013.py">
+      <file leaf-file-name="002AA2014.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bmf2015.py" />
         <option value="$PROJECT_DIR$/bmutocsv.py" />
         <option value="$PROJECT_DIR$/BMU.csv" />
         <option value="$PROJECT_DIR$/BMF2016.py" />
@@ -113,8 +112,9 @@
         <option value="$PROJECT_DIR$/data/csvTxtPreprocess/AA13tabula.csv" />
         <option value="$PROJECT_DIR$/aa13.csv" />
         <option value="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" />
-        <option value="$PROJECT_DIR$/scripts/002AA2014.py" />
         <option value="$PROJECT_DIR$/aa14.csv" />
+        <option value="$PROJECT_DIR$/scripts/002AA2015.py" />
+        <option value="$PROJECT_DIR$/scripts/002AA2014.py" />
         <option value="$PROJECT_DIR$/scripts/002AA2013.py" />
       </list>
     </option>
@@ -216,24 +216,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="csvNewModel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geschenkeliste" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geschenkeliste" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csvFinal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,20 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/csvFinal/aa13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11547">
-          <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvFinal/aa13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/csvFinal/aa14.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -569,13 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/2015AA.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2165">
-          <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -846,34 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aa13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa14.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1574">
           <caret line="147" column="28" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="198" column="53" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -894,10 +831,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa13.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa15.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/002AA2015.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="198" column="53" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/2015AA.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2159">
+          <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/002AA2013.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="316">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
