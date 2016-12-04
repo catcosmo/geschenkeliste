@@ -9,7 +9,7 @@ aa13 =  open('aa13.csv', 'w')
 
 
 with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess/AA13tabula.csv', 'r+') as file:
-    data = csv.reader(file, delimiter=',')
+    data = csv.reader(file, delimiter=',', quotechar='"')
     for row in data:
         if len(row) >3:
             if row[2] != '': #filters out empty rows
