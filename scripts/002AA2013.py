@@ -54,7 +54,7 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                         newRow[0] += '"'
                 #get fate + success
                 if row[4] != '':
-                    newRow[7] = row[4]
+                    newRow[7] = '"' + row[4] + '"'
                     newRow[8] = 'fail'
                     if 'BM' in row[4]:
                         newRow[8] = 'success'
@@ -78,5 +78,6 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
 
 
 
-                #print newRow
+                if newRow[9] != 'AA':
+                    print newRow[0]
                 aa13.write(', '.join(newRow) + '\n')

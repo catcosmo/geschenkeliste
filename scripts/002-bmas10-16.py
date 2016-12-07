@@ -16,7 +16,7 @@ with open('../data/csvTxtPreprocess/BMAS2010-16.csv', 'rb') as csvfile:
         over25euro = (row[3] == 'x')
         fate = ''
         success = ''
-        ministryabbreviation = 'bmas'
+        ministryabbreviation = 'BMAS'
 
         for i in range(4, 8):
             options = {
@@ -44,6 +44,6 @@ with open('../data/csvTxtPreprocess/BMAS2010-16.csv', 'rb') as csvfile:
             ministryabbreviation
         ])
 
-    with open('bmas10-16.csv', 'wb') as f:
+    with open('../data/csvNewModel/bmas10-16.csv', 'wb') as f:
         writer = csv.writer(f)
         writer.writerows(result)
