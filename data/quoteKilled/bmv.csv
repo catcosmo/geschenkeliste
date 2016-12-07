@@ -1,0 +1,81 @@
+"Einladung eines Angehörigen zur Teilnahme an einer Kinopremiere ", 0000, 00, 00, 00.00, True, false, kostenfreie Überlassung, success, BMV
+"ein Buch ", 0000, 00, 00, 018.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Taschenmesser ", 0000, 00, 00, 045.00, False, True, Rückgabe an Schenkungsgeber , fail, BMV
+"Präsentkarton mit drei Flaschen Wein ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung , success, BMV
+"eine Flasche Weinbrand 0",35 I , 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung . , success
+"Flasche Champagner ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassul}g_ , success, BMV
+"Postwertzeichen ", 0000, 00, 00, 075.00, False, True, Vereinnahmung in den Bestand der Bw , fail, BMV
+"CHN-Uhr ", 0000, 00, 00, 049.00, False, True, Vereinnahmung in den Bestand der Bw , fail, BMV
+"Wappenteller ", 0000, 00, 00, 018.90, True, False, kostenfreie Überlassung , success, BMV
+"Holzkiste Rotwein + Weinutensilien ", 0000, 00, 00, 024.30, True, False, kostenfreie Überlassung , success, BMV
+"Flaschenöffner ", 0000, 00, 00, 029.00, False, True,  persönliche Verwendung gg. Bezahlung, success, BMV
+"Buch 'Geschichte der U-Boot-Seerohre bei Carl Zeiss", 0000, 00, 00, 029.95, False, True, persönliche Verwendung gg. Bezahlung, success, BMV
+"Uhr auf Sockel ", 0000, 00, 00, 030.00, False, True, persönliche Verwendung gg. Bezahlung, success, BMV
+"Rollbild Seidenstickerei ", 0000, 00, 00, 039.90, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Kaftan ", 0000, 00, 00, 045.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Taschenmesser ", 0000, 00, 00, 045.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Teeservice ", 0000, 00, 00, 048.61, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Mongolischer Reiter ", 0000, 00, 00, 049.90, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Krawatte+Manschettenknöpfe ", 0000, 00, 00, 050.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Metallbild (lndonesien) ", 0000, 00, 00, 055.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Taschenmesser ", 0000, 00, 00, 055.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Buch ", 0000, 00, 00, 059.90, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Armbanduhr ", 0000, 00, 00, 071.45, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Uhr+ Buch ", 0000, 00, 00, 075.80, False, True, persönliche Verwendung gg. BezahlunQ , fail, BMV
+"Teppich ", 0000, 00, 00, 0125.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Teppich ", 0000, 00, 00, 0180.33, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Teppich ", 0000, 00, 00, 0245.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Armbanduhr ", 0000, 00, 00, 0390.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Armbanduhr ", 0000, 00, 00, 0390.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Armbanduhr ", 0000, 00, 00, 0390.00, False, True, QQ. Bezahlung , success, BMV
+"Armbanduhr ", 0000, 00, 00, 0825.00, False, True, persönliche Verwendung gg. Bezahlung , success, BMV
+"Krawatte ", 0000, 00, 00, 054.90, False, True, Annahme abgelehnt, fail, BMV
+"reich verzierte Marmorvase ", 0000, 00, 00, 0, True, False, Gastgeschenk, fail, BMV
+"Manschettenknöpfe und Kravatte ", 0000, 00, 00, 050.00, False, True,  persönliche Verwendung gegen Spende, fail, BMV
+"ein Modellauto (Maßstab 1 :87) ", 0000, 00, 00, 012.00, True, False, kostenfreie Überlassung , success, BMV
+"ein Modellauto (Maßstab 1 :87) ", 0000, 00, 00, 012.00, True, False, kostenfreie Überlassung , success, BMV
+"ein T -Shirt mit Beflockung ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"eine Krawattennadel ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Fläschchen 5 cl Becherovka ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"einT-Shirtmit Beflockung ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"eine Krawattennadel ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Fläschchen 5 cl Becherovka ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Modellauto (Maßstab 1 :87) ", 0000, 00, 00, 012.00, True, False, kostenfreie Überlassung, success, BMV
+"einT-Shirtmit Beflockung ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"eine Krawattennadel ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Fläschchen 5 cl Becherovka ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Angebot zum Besuch der Wiener Staatsoper ", 0000, 00, 00, 0, True, False,  Annahme abgelehnt, fail, BMV
+"drei Bücher im Wert von jeweils über 25",00 , 0000, 00, 00, 075, False, True,  Abgabe an Bibliothek, fail
+"ein Buch ", 0000, 00, 00, 024.95, True, False, Abgabe an Bibliothek, fail, BMV
+"je ein Buch an drei Personen ", 0000, 00, 00, 0198.00, False, True, Abgabe an Bibliothek, fail, BMV
+"ein Buch ", 0000, 00, 00, 019.95, True, False, kostenfreie Überlassung, success, BMV
+"ein Buch ", 0000, 00, 00, 039.90, False, True, Abgabe an Bibliothek, fail, BMV
+"ein Modellflugzeug (Maßstab 1 :48) ", 0000, 00, 00, 067.00, False, True, Rückgabe an Schenkungsgeber, fail, BMV
+"ein Buch ", 0000, 00, 00, 048.00, False, True, Abgabe an Bibliothek, fail, BMV
+"eine USB-Powerbank und ein USB-Ventilator beide mit Werbeaufdruck ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"zwei T -Shirt im Wert von je 19",95 Euro, die , 0000, 00, 00, 039.90, False, True, kostenfreie Überlassung
+"verschiedene Kalender ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"eine Stofftasche ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"eine Medaille ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"ein Taschenmesser ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"ein Taschenmesser ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"eine Flasche Klarer 0",35 I , 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success
+"eine Lieder-CD ", 0000, 00, 00, 00.00, True, True, kostenfreie Überlassung, success, BMV
+"eine Weihnachtskarte mit je zwei weihnachtli- ", 0000, 00, 00, 0, True, False, , fail, BMV
+"chen Sammelbriefmarken ", 0000, 00, 00, 025.00, False, False, kostenfreie Überlassung , success, BMV
+"eine Weihnachtskarte mit je zwei weihnachtli- ", 0000, 00, 00, 0, True, False, , fail, BMV
+"chen Sammelbriefmarken ", 0000, 00, 00, 025.00, False, False, kostenfreie Überlassung , success, BMV
+"ein Jahreskalender von der Sparkasse ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Buchkalender 'Die gute Saat 2012' ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Kalender der Fa. SAP ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"ein Buch ein silberfarbener Teller ", 0000, 00, 00, 0, True, False,  Gastgeschenk ist in das Eigentum des Bundes übergegangen, fail, BMV
+"Präsentkarton mit drei Flaschen Wein ", 0000, 00, 00, 025.00, False, False, kostenfreie Überlassung , success, BMV
+"Tischuhr im Holzwürfel ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Wappen ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Wappen ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Wappen ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Kugelschreiber ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"diverse Wandkalender verschiedener Firmen im Wert von je 5",- bis 10,- Euro , 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung
+"ein Erinnerungsfoto ehemaliger Bw-Soldaten und eine Flasche Allgäuer Gebirgsenzian ", 0000, 00, 00, 00.00, True, False, kostenfreie Überlassung, success, BMV
+"Herrenduft", 50 ml , 0000, 00, 00, 0, True, False, Gastgeschenk ist in das Eigentum des Bundes übergegangen , fail
+"Damenduft", 30 ml , 0000, 00, 00, 0, True, False, Gastgeschenk ist in das Eigentum des Bundes übergegangen, fail
