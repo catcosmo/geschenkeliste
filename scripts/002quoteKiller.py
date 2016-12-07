@@ -21,4 +21,4 @@ for filename in os.listdir(folder): 
 			for i in range(1,10): 
 				newRow[i] = row[i]  
 			print newRow  
-			exit_file.write(','.join(newRow) + '\n')
+            exit_file.write(','.join(newRow) + '\n')
