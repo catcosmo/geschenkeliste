@@ -76,8 +76,4 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                     newRow[6] = 'False'
                 #get u25/ü25
 
-
-
-                if newRow[9] != 'AA':
-                    print newRow[0]
                 aa13.write(', '.join(newRow) + '\n')
