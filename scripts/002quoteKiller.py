@@ -15,10 +15,11 @@ for filename in os.listdir(folder):
         for row in reader:
             newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
             row[0] = re.sub('"', '\'', row[0])
-            newRow[0] = '"' + row[0] + '"'
+            newRow[0] = '|' + row[0] + '|'
+            row[7] = '|' + row[7] + '|'
 
 
-            #newRow.append(row[1:])
+            #newRow.append(row[1:]
             for i in range(1,10):
                 newRow[i] = row[i]
 

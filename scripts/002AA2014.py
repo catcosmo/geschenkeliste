@@ -47,6 +47,8 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                         given = ' An: ' + row[1]
                         newRow[0] += given
                 else:
+                    if '"' in row[2]:
+                        print row[2]
                     newRow[0] = '"' + row[2]
                     if row[1] not in ['', 'Zentrale']:
                         given = ' An: ' + row[1]
@@ -77,5 +79,5 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                     newRow[5] = 'False'
                     newRow[6] = 'False'
 
-                #print newRow
+
                 aa13.write(', '.join(newRow) + '\n')

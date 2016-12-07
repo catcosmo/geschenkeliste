@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b85e4e6-f9b5-4511-a748-8989921a65fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/csvNewModel/aa13.csv" afterPath="$PROJECT_DIR$/data/csvNewModel/aa13.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/quoteKilled/aa13.csv" afterPath="$PROJECT_DIR$/data/quoteKilled/aa13.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002AA2013.py" afterPath="$PROJECT_DIR$/scripts/002AA2013.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/csvNewModel/aa14.csv" afterPath="$PROJECT_DIR$/data/csvNewModel/aa14.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" afterPath="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/quoteKilled/aa14.csv" afterPath="$PROJECT_DIR$/data/quoteKilled/aa14.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002AA2014.py" afterPath="$PROJECT_DIR$/scripts/002AA2014.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/002quoteKiller.py" afterPath="$PROJECT_DIR$/scripts/002quoteKiller.py" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,23 +29,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="002AA2013.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/002AA2013.py">
+      <file leaf-file-name="002AA2014.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="511">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AA2014.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="750" column="54" selection-start-line="750" selection-start-column="54" selection-end-line="750" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002quoteKiller.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/002quoteKiller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
-                <element signature="e#15#25#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/csvTest.py">
+      <file leaf-file-name="bmf-2015.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/csvNewModel/bmf-2015.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aa14.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/quoteKilled/aa14.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="154" column="7" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aa14.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa14.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BMFFSJ.py" />
         <option value="$PROJECT_DIR$/BMFSFJ-done.csv" />
         <option value="$PROJECT_DIR$/data/csvTxtPreprocess/BMZ.txt" />
         <option value="$PROJECT_DIR$/data/csvTxtPreprocess/GeschenkelistebisDez2013AA.pdf.txt" />
@@ -144,17 +185,18 @@
         <option value="$PROJECT_DIR$/scripts/AA2013.py" />
         <option value="$PROJECT_DIR$/data/csvTxtPreprocess/AA13tabula.csv" />
         <option value="$PROJECT_DIR$/aa13.csv" />
-        <option value="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" />
         <option value="$PROJECT_DIR$/aa14.csv" />
         <option value="$PROJECT_DIR$/scripts/002AA2015.py" />
-        <option value="$PROJECT_DIR$/scripts/002AA2014.py" />
-        <option value="$PROJECT_DIR$/scripts/002quoteKiller.py" />
         <option value="$PROJECT_DIR$/data/quoteKilled/BMU.csv" />
         <option value="$PROJECT_DIR$/data/quoteKilled/aa13QK.csv" />
         <option value="$PROJECT_DIR$/scripts/002-bmas10-16.py" />
         <option value="$PROJECT_DIR$/scripts/debuggerAA.py" />
         <option value="$PROJECT_DIR$/data/csvNewModel/aa13.csv" />
         <option value="$PROJECT_DIR$/scripts/002AA2013.py" />
+        <option value="$PROJECT_DIR$/data/quoteKilled/aa13.csv" />
+        <option value="$PROJECT_DIR$/scripts/002AA2014.py" />
+        <option value="$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv" />
+        <option value="$PROJECT_DIR$/scripts/002quoteKiller.py" />
       </list>
     </option>
   </component>
@@ -256,6 +298,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="quoteKilled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geschenkeliste" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geschenkeliste" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csvTxtPreprocess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,12 +605,12 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24248926" sideWeight="0.49280575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34993616" sideWeight="0.24177396" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34993616" sideWeight="0.24606581" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34993616" sideWeight="0.75822604" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34993616" sideWeight="0.7539342" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2160229" sideWeight="0.5071942" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -583,14 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bmvj.py" />
-    <entry file="file://$PROJECT_DIR$/data/csvFinal/bmz.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/BMJVPre.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -757,33 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="198" column="53" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/2015AA.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2159">
           <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa14.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,27 +858,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/002quoteKiller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/quoteKilled/bmi.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1664">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/csvNewModel/bmas10-16.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4695">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -859,14 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/csvTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -895,20 +898,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/quoteKilled/aa13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="1077" column="0" selection-start-line="1077" selection-start-column="0" selection-end-line="1077" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/002AA2013.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/csvTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvNewModel/bmas10-16.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvNewModel/bmf-2015.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/quoteKilled/aa14.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="154" column="7" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvNewModel/aa14.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/quoteKilled/aa13.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16155">
+          <caret line="1077" column="0" selection-start-line="1077" selection-start-column="0" selection-end-line="1077" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/002AA2014.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csvTxtPreprocess/AA2014.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="750" column="54" selection-start-line="750" selection-start-column="54" selection-end-line="750" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/002quoteKiller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
