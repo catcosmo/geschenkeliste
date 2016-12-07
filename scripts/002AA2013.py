@@ -4,7 +4,7 @@ import re
 oldRow = ['gift', 'Auswärtiges Amt','2013', 'n.a.', 'n.a.', 'AA', 'n.a.']
 newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
 
-aa13 =  open('aa13002.csv', 'w')
+aa13 =  open('../data/csvNewModel/aa13.csv', 'w')
 
 
 

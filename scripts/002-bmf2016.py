@@ -66,4 +66,4 @@ with open('../data/csvTxtPreprocess/bmf2016.csv', 'rb') as csvfile:
 
     with open('bmf-2016.csv', 'wb') as f:
         writer = csv.writer(f)
-        writer.writerows(result)
+        writer.writerow(newRow)

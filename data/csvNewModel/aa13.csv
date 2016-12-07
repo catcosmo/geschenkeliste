@@ -135,7 +135,7 @@ Silberschale mit Segelschiff- Symbol in der Mitte (Durchmesser ca. 18 cm), 2010,
 Silberarmband mit Kupfereinlage, 2010, 02, 05, 00.00, False, False, Lager Geschenke, fail, AA
 "Tissot Herrenarmbanduhr, silberfarben", 2010, 03, 01, 0325, False, True, Tresor, fail, AA
 Perlenkette, 2010, 03, 01, 0120, False, True, Tresor, fail, AA
-"Puls-Uhr, Suunto" An: Botschaft Wien, 2010, 03, 01, 070, False, True, Tresor, fail, AA
+"Puls-Uhr, Suunto An: Botschaft Wien", 2010, 03, 01, 070, False, True, Tresor, fail, AA
 "Krawatte, rosa-silber gestreift", 2010, 03, 01, 00.00, False, False, Lager Geschenke, fail, AA
 2 Teppiche  Aserbaidschan + Tasche (andere Tasche von 1-PV an Beschenkten überlassen), 2010, 03, 01, 00.00, False, False, Lager Geschenke, fail, AA
 Digitaler Bilderrahmen  Intenso, 2010, 03, 01, 035, False, True, Tresor, fail, AA
@@ -291,7 +291,7 @@ Römische Münze An: Osaka, 2010, 05, 28, 00.00, False, False, Lager Geschenke, 
 "Damen-Armbanduhr, Repossi", 2010, 07, 29, 01000, False, True, Tresor, fail, AA
 Herren-Armbanduhr „Audemars Piguet Royal Oak“  und Silberteller mit vergoldetem Wappentier An: Doha, 2010, 06, 29, 017500, False, True, Tresor, fail, AA
 Herren-Armbanduhr Swiss Chrono, 2010, 08, 17, 01000, False, True, Tresor, fail, AA
-"Herren-Armbanduhr, Dio Monaco Genève" An: Riad, 2010, 06, 16, 01000, False, True, Tresor, fail, AA
+"Herren-Armbanduhr, Dio Monaco Genève An: Riad", 2010, 06, 16, 01000, False, True, Tresor, fail, AA
 3D Bild  grau  im Glasrahmen in brauner Holzkiste, 2010, 07, 27, 00.00, False, False, Lager Geschenke, fail, AA
 "Bilderrahmen mit 3 gold-silber Stücken (Orchid, Wau Bulan, Bunga Raya)", 2010, 08, 04, 00.00, False, False, Lager Geschenke, fail, AA
 Buch Johannes King, 2010, 08, 09, 00.00, False, False, Büro des BM, success, AA
@@ -383,7 +383,7 @@ kleines Bild mit Figur, 2010, 12, 23, 00.00, False, False, Lager Geschenke, fail
 "Becher, Porzellan", 2010, 12, 23, 00.00, False, False, Lager Geschenke, fail, AA
 "großer Teppich mit rot-beiger Bemusterung, Parfum wurde von 1-PV vernichtet.", 2011, 01, 04, 00.00, False, False, Lager Geschenke, fail, AA
 2 Kataloge von Blum/Fischer/Rumohr, 2010, 12, 09, 00.00, False, False, Lager Geschenke, fail, AA
-"2 Seidenkrawatten, 1 x gelb, floristisches Muster, 1 x blau Fußball-Muster" An: Botschaft Seoul, 2010, 08, 23, 00.00, False, False, Lager Geschenke, fail, AA
+"2 Seidenkrawatten, 1 x gelb, floristisches Muster, 1 x blau Fußball-Muster An: Botschaft Seoul", 2010, 08, 23, 00.00, False, False, Lager Geschenke, fail, AA
 2 Damenarmbanduhren An: Botschaft Seoul, 2010, 08, 23, 00.00, False, False, Tresor, fail, AA
 Armbanduhr Rolex für Damen An: Botschaft Doha, 2010, 10, 20, 08000, False, True, Tresor, fail, AA
 Parker Schreibset mit Füller und Kugelschreiber, 2010, 12, 29, 030, False, True, Lager Geschenke, fail, AA
@@ -419,9 +419,9 @@ Buch Marrakesh - The Secret of Courtyard Houses, 2011, 02, 25, 00.00, False, Fal
 3 Silbermünzen in blauer Schachtel, 2011, 02, 25, 00.00, False, False, Lager Geschenke, fail, AA
 schwarze Lederaktenmappe, 2011, 02, 25, 00.00, False, False, Lager Geschenke, fail, AA
 1 Dupont-Kugelschreiber und 2 Armbanduhren, 2011, 03, 07, 01000, False, True, Lager Geschenke, fail, AA
-"E-Book  gebraucht, weist starke Kratzspuren im Display auf)" An: Peking, 2011, 03, 03, 066, False, True, Lager Geschenke, fail, AA
+"E-Book  gebraucht, weist starke Kratzspuren im Display auf) An: Peking", 2011, 03, 03, 066, False, True, Lager Geschenke, fail, AA
 1 Damenarmbanduhr Robergé mit Strass-Steinen, 2011, 03, 08, 00.00, False, False, Lager Geschenke, fail, AA
-"E-Book  gebraucht, weist starke Kratzspuren im Display auf)" An: Peking, 2011, 03, 03, 066, False, True, Lager Geschenke, fail, AA
+"E-Book  gebraucht, weist starke Kratzspuren im Display auf) An: Peking", 2011, 03, 03, 066, False, True, Lager Geschenke, fail, AA
 2 Damenarmbanduhren und 1 Deko-Marmor-Perlmutt-Teller, 2011, 03, 14, 02000, False, True, Lager Geschenke, fail, AA
 2 Herren-Armbanduhren, 2011, 03, 01, 02000, False, True, Lager Geschenke, fail, AA
 1 Herren-Armbanduhr An: Kuwait, 2011, 03, 01, 01000, False, True, Lager Geschenke, fail, AA
@@ -449,7 +449,7 @@ Teller mit floralem Muster, 2011, 02, 22, 00.00, False, False, Lager Geschenke, 
 Standuhr mit Ziegenfiguren, 2011, 03, 01, 00.00, False, False, Lager Geschenke, fail, AA
 Uhr mit Wechselarmband und Lupe in großer Holzkiste, 2011, 03, 01, 00.00, False, False, Lager Geschenke, fail, AA
 1 Damenarmbanduhr Makre Léon Hatot An: Doha, 2011, 03, 02, 02900, False, True, Tresor, fail, AA
-"E-Book  gebraucht, weist starke Kratzspuren im Display auf)" An: Peking, 2011, 03, 03, 00.00, False, False, Lager Geschenke, fail, AA
+"E-Book  gebraucht, weist starke Kratzspuren im Display auf) An: Peking", 2011, 03, 03, 00.00, False, False, Lager Geschenke, fail, AA
 Seidenbuch und  bersetzung „Lao Zi's Dao de Jing“ in brauner Box, 2011, 04, 05, 00.00, False, False, Lager Geschenke, fail, AA
 Schriftrolle mit chinesischen Schriftzeichen in Holzkiste, 2011, 04, 05, 00.00, False, False, Lager Geschenke, fail, AA
 Silbermünze in blauem Kästchen, 2011, 04, 05, 00.00, False, False, Lager Geschenke, fail, AA
@@ -653,7 +653,7 @@ Bonbonière aus Nickel, 2012, 01, 16, 00.00, False, False, Lager Geschenke, fail
 Hugo Boss Krawatte+Manschettenknöpfe, 2012, 01, 05, 00.00, False, False, Lager Geschenke, fail, AA
 Schreibset der Fa. Daniel Hechter, 2012, 01, 06, 00.00, False, False, Lager Geschenke, fail, AA
 "Femme de Montblanc, EdP 75ml", 2012, 01, 04, 00.00, False, False, Lager Geschenke, fail, AA
-"EdT amorvero uomo, 50ml" An: Rom, 2011, 12, 28, 00.00, False, False, Lager Geschenke, fail, AA
+"EdT amorvero uomo, 50ml An: Rom", 2011, 12, 28, 00.00, False, False, Lager Geschenke, fail, AA
 Manschettenknöpfe RT, 2011, 12, 20, 00.00, False, False, Lager Geschenke, fail, AA
 Schreibset der Fa. Parker mit Etui, 2012, 01, 06, 00.00, False, False, Lager Geschenke, fail, AA
 silberne Kaffeekanne, 2012, 01, 23, 00.00, False, False, Lager Geschenke, fail, AA
@@ -691,7 +691,7 @@ Pferdestatue (silber), 2012, 02, 29, 00.00, False, False, Lager Geschenke, fail,
 Herren-Armbanduhr Jaguar An: Asmara, 2012, 01, 16, 0500, False, True, Tresor, fail, AA
 Herren-Armbanduhr An: Kiew, 2012, 02, 13, 070, False, True, Lager Geschenke, fail, AA
 Zwei Silber-Gedenkmünzen Schmuckanhänger+Manchettenk nöpfe Halbedelstein, 2012, 02, 23, 00.00, False, False, Lager Geschenke, fail, AA
-"Füllhalter Montblanc, Meisterstück mit Gravur Skoda" An: Prag, 2012, 02, 17, 0350, False, True, Tresor, fail, AA
+"Füllhalter Montblanc, Meisterstück mit Gravur Skoda An: Prag", 2012, 02, 17, 0350, False, True, Tresor, fail, AA
 2 Moccatassen und Gebäckschale (Kütahya Porzellan) Souvenirteller aus Marmor, 2012, 02, 21, 00.00, False, False, Lager Geschenke, fail, AA
 Kunsthandwerk Silber in schwarzem Rahmen, 2012, 03, 07, 00.00, False, False, Büro Ref. 010- 4 (am 03.12.14 Abgabe an Geschenkelag er), fail, AA
 Buch „Geometrie der Nacktheit“, 2012, 03, 06, 00.00, False, False, Lager Geschenke, fail, AA
@@ -729,7 +729,7 @@ Diverse Bücher - Weihnachtsgeschenke, 2012, 07, 12, 00.00, False, False, Lager 
 Babuschka, 2012, 07, 12, 00.00, False, False, Lager Geschenke, fail, AA
 Teppich, 2012, 07, 12, 00.00, False, False, Lager Geschenke, fail, AA
 Figur mit Schnaps, 2012, 07, 12, 00.00, False, False, Lager Geschenke, fail, AA
-"Goldmünze (32 karat, 40 gr.)" An: Harare, 2012, 03, 08, 01600, False, True, Tresor, fail, AA
+"Goldmünze (32 karat, 40 gr.) An: Harare", 2012, 03, 08, 01600, False, True, Tresor, fail, AA
 Parfum „Amouage Gold“, 2012, 03, 08, 0200, False, True, Lager Geschenke, fail, AA
 Tuch „Königliche Bayern Edition“ An: Bern, 2012, 03, 02, 00.00, False, False, Lager Geschenke, fail, AA
 "Bild einer Uni, brauner Rahmen", 2012, 03, 14, 00.00, False, False, Lager Geschenke, fail, AA
@@ -739,7 +739,7 @@ Tuch „Königliche Bayern Edition“ An: Bern, 2012, 03, 02, 00.00, False, Fals
 "Ölbild, Tasse mit Blumen", 2012, 03, 14, 00.00, False, False, Büro Ref. 010- 1, fail, AA
 Windlicht aus Holz geschnitzt, 2012, 03, 20, 00.00, False, False, Lager Geschenke, fail, AA
 Mont Blanc Kugelschreiber + Mont Blanc Lederbörse An: Djidda, 2012, 03, 05, 00.00, False, False, Tresor, fail, AA
-"1 Krawattennadel, 1 Paar Manschettenknöpfe, 1 Karaffe mit 6 Gläsern" An: Prag, 2012, 02, 21, 00.00, False, False, Kraw.nadel und Manschetten im Tresor, Karaffenset im Lager, fail, AA
+"1 Krawattennadel, 1 Paar Manschettenknöpfe, 1 Karaffe mit 6 Gläsern An: Prag", 2012, 02, 21, 00.00, False, False, Kraw.nadel und Manschetten im Tresor, Karaffenset im Lager, fail, AA
 4teiliges Schreibtischset aus Holz, 2012, 03, 15, 00.00, False, False, Lager Geschenke, fail, AA
 Schmuckanhänger, 2012, 03, 15, 00.00, False, False, Tresor, fail, AA
 "Reliefbild, 30x30cm", 2012, 03, 15, 00.00, False, False, Lager Geschenke, fail, AA
@@ -780,7 +780,7 @@ Kugelschreiben mit den Insignien des Sultans von Brunei Darussalam An: Pjöngjan
 1Al-Quds-Gedenmünze „Palastine“ An: Pjöngjang, 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Seidenschal An: Pjöngjang, 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Silberplakette gerahmt Bosnien Herzegowina An: Pjöngjang, 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
-"irdenes Teeservice mit vergoldetem Besatz (1 Kanne, 6 Tassen)" An: Pjöngjang, 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
+"irdenes Teeservice mit vergoldetem Besatz (1 Kanne, 6 Tassen) An: Pjöngjang", 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Certificate for Meritorial Deeds, 2012, 04, 29, 00.00, False, False, Lager Geschenke, fail, AA
 Bild Moredechai Rosenstein in schwarzem Rahmen, 2012, 05, 04, 00.00, False, False, Lager Geschenke, fail, AA
 "Olbild auf Leinwand, Motiv Strand in schwarzer Rolle", 2012, 05, 09, 00.00, False, False, Lager Geschenke, fail, AA
@@ -849,7 +849,7 @@ Mosaik, 2012, 09, 12, 00.00, False, False, Lager Geschenke, fail, AA
 zwei Porzellanschälchen, 2012, 09, 12, 00.00, False, False, Lager Geschenke, fail, AA
 eine Vase, 2012, 09, 12, 00.00, False, False, Lager Geschenke, fail, AA
 "Orientalisches Schmuckset, Silber", 2012, 09, 28, 00.00, False, False, Lager Geschenke, fail, AA
-"2 Paar Damenschuhe, Leder, von ARA" An: Addis Abeba, 2012, 07, 26, 00.00, False, False, Lager Geschenke, fail, AA
+"2 Paar Damenschuhe, Leder, von ARA An: Addis Abeba", 2012, 07, 26, 00.00, False, False, Lager Geschenke, fail, AA
 Maniküreset An: N.N., 2012, 09, 28, 00.00, False, False, Lager Geschenke, fail, AA
 Porzellan-Teller von Güral Porselen Türkei An: Jakarta, 2012, 08, 07, 00.00, False, False, Lager Geschenke, fail, AA
 Teppich, 2012, 09, 21, 00.00, False, False, Büro des SO- AFG-PAK, fail, AA
@@ -896,7 +896,7 @@ Stifteständer aus Holz, 2012, 12, 19, 00.00, False, False, Lager Geschenke, fai
 Holzskulptur „Intimité“, 2013, 01, 15, 00.00, False, False, Lager Geschenke, fail, AA
 Gemälde „Porte de Chef“ - N'Guessan Essah Marcel, 2013, 01, 16, 00.00, False, False, BM-Vorzimmer, success, AA
 Porzellanvase „The Great Silk Road“, 2013, 02, 01, 00.00, False, False, Lager Geschenke, fail, AA
-"Kristallbriefbeschwerer beim Transport von 1-PV-511 fallen gelassen, an der linken Ecke beschädigt)" An: Prag, 2013, 01, 29, 00.00, False, False, Lager Geschenke, fail, AA
+"Kristallbriefbeschwerer beim Transport von 1-PV-511 fallen gelassen, an der linken Ecke beschädigt) An: Prag", 2013, 01, 29, 00.00, False, False, Lager Geschenke, fail, AA
 Kristallkaraffe An: Prag, 2013, 01, 29, 00.00, False, False, Lager Geschenke, fail, AA
 T-Shirt  in Folie verpackt, 2013, 01, 14, 00.00, False, False, Lager Geschenke, fail, AA
 Tischfigur, 2013, 01, 14, 00.00, False, False, Lager Geschenke, fail, AA
@@ -1050,8 +1050,8 @@ Kunstmappe, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Satz Olympia-Abzeichen, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 "Porzellanschale, bemalt", 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 silberne Gedenkmünze zu 130 Jahre Nationalbank, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
-"Kugelschreiber, Mont Blanc (Princesse de Monaco, Mod. 106632)" An: Botschaft Bagdad, 2013, 09, 09, 0650, False, True, Tresor, fail, AA
-"Kugelschreiber  Thailand , Kästchen mit Münze (Libanon)" An: Botschaft Rom, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
+"Kugelschreiber, Mont Blanc (Princesse de Monaco, Mod. 106632) An: Botschaft Bagdad", 2013, 09, 09, 0650, False, True, Tresor, fail, AA
+"Kugelschreiber  Thailand , Kästchen mit Münze (Libanon) An: Botschaft Rom", 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Vase und Elefantenstatuette - vergoldet, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Damenuhr, 2013, 09, 09, 00.00, False, False, Lager Geschenke, fail, AA
 Bild Tempel in Bagan, 2013, 09, 17, 00.00, False, False, Lager Geschenke, fail, AA
