@@ -4,7 +4,7 @@ import re
 oldRow = ['gift', 'Auswärtiges Amt','2013', 'n.a.', 'n.a.', 'AA', 'n.a.']
 newRow = ['gift', '0000', '00', '00', '00.00', 'false', 'false', 'fate', 'n.a.', 'AA']
 
-aa13 =  open('aa13.csv', 'w')
+aa13 =  open('aa13002.csv', 'w')
 
 
 
@@ -42,11 +42,16 @@ with open('/Users/krawallmietze/code/python/geschenkeliste/data/csvTxtPreprocess
                 #get gift
                 if ',' not in row[2]:
                     newRow[0] = row[2]
+                    if row[1] not in ['', 'Zentrale']:
+                        given = ' An: ' + row[1]
+                        newRow[0] += given
                 else:
-                    newRow[0] = '"' + row[2] + '"'
-                if row[1] not in ['',  'Zentrale']:
-                    given = ' An: ' + row[1]
-                    newRow[0] += given
+                    newRow[0] = '"' + row[2]
+                    if row[1] not in ['',  'Zentrale']:
+                        given = ' An: ' + row[1]
+                        newRow[0] += given + '"'
+                    else:
+                        newRow[0] += '"'
                 #get fate + success
                 if row[4] != '':
                     newRow[7] = row[4]
