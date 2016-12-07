@@ -19,4 +19,4 @@ with open('../data/csvNewModel/aa13.csv', 'rb') as csvfile:
 
         print newRow
 
-        aa13.write(newRow + '\n')
+        aa13.write(','.join(newRow) + '\n')
